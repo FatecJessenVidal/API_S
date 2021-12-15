@@ -1,5 +1,3 @@
-# API_S
- 
 <h1 align="center"> Aprendizagem por Projeto integrado - API </h1>
 
 Coleção dos Projetos integradores realizados por nossos estudantes
