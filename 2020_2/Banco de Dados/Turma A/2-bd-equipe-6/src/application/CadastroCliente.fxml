@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Button layoutX="434.0" layoutY="553.0" mnemonicParsing="false" text="CADASTRAR" />
+      <Label layoutX="213.0" layoutY="52.0" text="Cadastro Cliente">
+         <font>
+            <Font size="24.0" />
+         </font></Label>
+      <TextField layoutX="209.0" layoutY="322.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="209.0" layoutY="290.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="209.0" layoutY="258.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="209.0" layoutY="225.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="209.0" layoutY="192.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="209.0" layoutY="354.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="209.0" layoutY="160.0" prefHeight="25.0" prefWidth="307.0" />
+      <Label layoutX="89.0" layoutY="390.0" prefHeight="17.0" prefWidth="125.0" text="CEP:" />
+      <Label layoutX="89.0" layoutY="359.0" prefHeight="17.0" prefWidth="125.0" text="Complemento:" />
+      <Label layoutX="89.0" layoutY="327.0" prefHeight="17.0" prefWidth="125.0" text="Nº" />
+      <Label layoutX="89.0" layoutY="298.0" prefHeight="17.0" prefWidth="125.0" text="Rua:" />
+      <Label layoutX="89.0" layoutY="262.0" prefHeight="17.0" prefWidth="125.0" text="Bairro:" />
+      <Label layoutX="89.0" layoutY="229.0" prefHeight="17.0" prefWidth="125.0" text="Cidade:" />
+      <Label layoutX="86.0" layoutY="424.0" prefHeight="17.0" prefWidth="125.0" text="Telefone:" />
+      <TextField layoutX="209.0" layoutY="128.0" prefHeight="25.0" prefWidth="307.0" />
+      <Label layoutX="89.0" layoutY="132.0" prefHeight="17.0" prefWidth="125.0" text="Nome do Cliente:" />
+      <TextField layoutX="209.0" layoutY="386.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="209.0" layoutY="420.0" prefHeight="25.0" prefWidth="307.0" />
+      <Label layoutX="86.0" layoutY="164.0" text="CPF:" />
+      <Label layoutX="89.0" layoutY="196.0" text="UF:" />
+   </children>
+</AnchorPane>

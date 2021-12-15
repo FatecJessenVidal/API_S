@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="625.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.controllers.UsuarioController">
+   <children>
+      <Label layoutX="195.0" layoutY="52.0" text="Cadastro de Usuarios">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblMensagem" layoutX="286.0" layoutY="316.0" />
+      <TextField fx:id="txtConteudo" layoutX="210.0" layoutY="137.0" prefHeight="25.0" prefWidth="307.0" promptText="Escreva aqui" />
+      <Label layoutX="90.0" layoutY="132.0" prefHeight="17.0" prefWidth="125.0" text="Nome do Usuário:" />
+      <Button fx:id="btnConfirmar" layoutX="434.0" layoutY="525.0" mnemonicParsing="false" onAction="#executarClickConfirmar" text="CADASTRAR" />
+      <Label layoutX="90.0" layoutY="189.0" prefHeight="17.0" prefWidth="125.0" text="Telefone:" />
+      <Label layoutX="87.0" layoutY="336.0" prefHeight="17.0" prefWidth="125.0" text="Senha:" />
+      <TextField layoutX="210.0" layoutY="185.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="210.0" layoutY="232.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="210.0" layoutY="283.0" prefHeight="25.0" prefWidth="307.0" />
+      <TextField layoutX="210.0" layoutY="332.0" prefHeight="25.0" prefWidth="307.0" />
+      <Label layoutX="90.0" layoutY="236.0" text="Login:" />
+      <Label layoutX="90.0" layoutY="287.0" text="Tipo (nº de matricula):" />
+   </children>
+</AnchorPane>
