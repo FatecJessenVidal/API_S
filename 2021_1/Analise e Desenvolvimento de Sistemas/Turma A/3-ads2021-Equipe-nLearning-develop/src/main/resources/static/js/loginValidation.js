@@ -1,5 +1,0 @@
-function loginValidation()
-{
-	int = user
-	
-}
